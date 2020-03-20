@@ -1,0 +1,542 @@
+body{
+  font-family: sans-serif;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  margin: 0;
+}
+
+h1{
+  text-align:center;
+  font-size: 300%;
+  font-style: oblique;
+}
+h2{
+  text-align:center;
+  font-size: 150%;
+  font-style: oblique;
+}
+
+p{
+  font-size: 100%;
+}
+
+div.paragraph{
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+img.home{
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 5px;
+}
+
+a.li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #62148e
+}
+
+a:hover {
+  color: white;
+}
+
+div.event{
+  max-width: 50%;
+  margin-left: 24%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.event figure{
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.event figure img{
+  max-width: 100%;
+  padding: 0;
+}
+
+/* navigation bar */
+
+.menuicon{
+  display: none;
+}
+
+div.navsystem {
+  display: block;
+  background-color: white;
+  border-radius: 5px;
+}
+
+div.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #62148e;
+  margin: 0;
+  padding-bottom: 60px;
+  padding-left: 0;
+  width: 100%;
+}
+
+.nav{
+  background-color: #62148e;
+  position: absolute;
+  width: 100%;
+}
+
+nav ul li {
+  display: flex;
+  width: 15%;
+  background-color: #62148e;
+  text-decoration: none;
+  justify-content: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0;
+  display: flex;
+  top: 0;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background-color: #62148e;
+  text-align: center;
+}
+
+nav{
+  max-width: 100%;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size:18px;
+  font-family: Verdana, Courier, monospace;
+  font-weight:bold;
+  color:white;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+nav li a.active {
+  color:#eb9b8e;
+}
+
+div.box.box1 img{
+  border-style: solid;
+  border-color: #62148e;
+  border-width: thick;
+}
+
+nav li:hover{
+  background-color: #8427b8;
+}
+
+#formhead{
+  display: none;
+}
+
+div.logo{
+  margin-left: 0;
+  padding: 0;
+  padding-top: 0;
+}
+
+.container{
+  text-align: center;
+}
+
+.mission{
+  display: inline-block;
+  height: 20%;
+}
+
+div.logo img{
+  margin: 0;
+  width: 70px;
+  padding-top: 10%;
+}
+
+.mission img {
+  max-width: 100%;
+}
+
+/* about us page */
+div.row{
+  display:flex;
+  flex-direction:row;
+}
+
+main {
+  border-radius: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+div.box {
+  width: 300px;
+  height: auto;
+  padding: 10px 60px;
+  margin: 20px;
+  text-align: center;
+  flex-grow: 1;
+  font-size: 20px;
+}
+div.box.box1 {
+  padding-left:80px;
+  padding-right:20px;
+}
+div.box.box2 {
+  padding-top:50px;
+  padding-left:20px;
+}
+
+.suborg-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.resource-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.res{
+  border: solid;
+  border-color: #62148e;
+  border-width: medium;
+  flex-grow: 1;
+  width: 30%;
+  border-radius: 25px;
+  margin: 7px;
+  padding: 15px;
+}
+
+.resources{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+
+}
+
+#collect img{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.res h2{
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.res h3{
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.res img{
+  max-width: 100%;
+}
+
+.next-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 50%;
+  padding-right: 50%;
+  width: 400px;
+}
+
+button.next {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid orange;
+  color: black;
+}
+button:hover {
+  color: white;
+  background-color: #8427b8;
+  cursor: pointer;
+}
+
+/*form */
+.errorContainer {
+  display: block;
+  color: blue;
+  padding-left: 10px;
+  font-size: 14px;
+  }
+
+.hidden{
+  display: none;
+  }
+
+.flex {
+  clear: both;
+  border-radius: 10px;
+}
+
+main {
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+#feedbackForm {
+  display: flex;
+  flex-direction: column;
+  padding-left: 160px;
+}
+
+#feedbackForm div {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+#feedbackForm div.hearabout {
+  display: flex;
+  flex-direction: row;
+}
+
+#feedbackForm div.mailinglist {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+#feedbackForm div.question hidden {
+  display: flex;
+  flex-direction: row;
+}
+
+#feedbackForm div.checkbox{
+  padding-left:40.5%;
+}
+
+/* Aligning labels for best user legibility */
+#feedbackForm label.title{
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+#feedbackForm .option {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-question label{
+  margin-top: 10px;
+}
+
+#feedbackForm .options {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#feedbackForm select {
+  width: 50%;
+  margin-left: 10px;
+}
+
+#feedbackForm span{
+  padding-left: 320px;
+}
+
+button.subuton {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid orange;
+  color: black;
+}
+
+.submit-button {
+  margin-top: 15px;
+  margin-left: 60%;
+  width: 80px;
+}
+
+/*mobile*/
+
+@media (max-width: 700px) {
+  .suborg-row{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .resource-row{
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .res{
+    width: 85%;
+  }
+
+  img.home{
+    width: 90%;
+  }
+  .res img{
+    max-width: 100%;
+  }
+
+  nav ul li a{
+    font-size: 100%;
+    padding-top: 10%;
+  }
+
+  nav ul{
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    position: relative;
+  }
+
+  nav ul li{
+    width: 100%;
+    height: 10px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    flex-direction: column;
+  }
+
+  nav ul li a{
+    width: 100%;
+    height: 10px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    flex-direction: column;
+  }
+
+  div.header{
+    height: 10px;
+    padding: 0;
+
+  }
+
+  .menuicon{
+    display: inline-block;
+    width: 20px;
+    margin-top: 0;
+  }
+
+  .menuicon img{
+    width: 20px;
+  }
+
+  div.nav{
+    height: 40px;
+    display: block;
+    width: 100%;
+  }
+
+  div.logo img{
+    width: 30px;
+    padding-top: 0;
+  }
+
+  #formhead{
+    display: none;
+  }
+
+  .home{
+    max-width: 400px;
+  }
+
+  div.paragraph{
+    width: 100%;
+  }
+
+  div.row{
+    flex-direction: column;
+    padding-left:15px;
+  }
+
+  .next-button {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-left:30px;
+    width: 200px;
+  }
+
+  div.box.box2{
+    padding-top:0;
+  }
+  main{
+    margin-top: 300px;
+  }
+
+  .event figure{
+    margin: 0;
+    padding: 0;
+  }
+
+  .box{
+    padding: 0;
+  }
+
+  .box.box1{
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  .box.box1.img{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .box.box2{
+    margin: 0;
+    padding: 0;
+  }
+
+  /*form responsiveness*/
+  #feedbackForm {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size:10px;
+  }
+
+  #feedbackForm label.title {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+  }
+
+  #feedbackForm div {
+    font-size: 10px;
+  }
+
+  #feedbackForm div.checkbox {
+    padding-left: 30%;
+  }
+
+  #feedbackForm span {
+    padding-left: 120px;
+    font-size: 10px;
+  }
+}
